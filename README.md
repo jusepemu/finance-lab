@@ -1,5 +1,9 @@
 # Finance lab
 
+| version | date         | status      |
+| ------- | ------------ | ----------- |
+| v0.1    | Jan 19, 2026 | in progress |
+
 ## 1. Problem
 
 I currently do not have a centralized system for tracking and analyzing my **expenses**, **monthly income**, **investments**, and **savings goals**.  
@@ -48,7 +52,38 @@ The project is **open source** and designed so that anyone can run and adapt it 
 
 ---
 
-## 5. Project Principles
+## 5. MVP (v0.1)
+
+The goal of the MVP is to **validate the product's complete flow**, from data entry to generating minimum user value. In this first version, the system must allow:
+
+- Defining a base monthly income
+- Manually recording expenses (date, category, amount, optional note)
+- Viewing a simple summary:
+  - Total spent in the month
+  - Basic expense vs. income comparison
+- Obtaining a simple AI-generated insight, for example:
+  - A summary of the month's spending behavior
+  - Detection of an obvious recurring expense
+
+The MVP does not aim for optimization or depth, but to **close the complete loop**: data → system → interpretation.
+
+---
+
+## 6. Post-MVP
+
+Once the MVP is validated and its real limitations are understood, the project could evolve towards:
+
+- Savings goals with visual progress
+- Month-to-month comparisons
+- Automatic expense categorization
+- More elaborate insights (trends, soft alerts)
+- Data export
+
+These ideas are not commitments, only **possible directions** that will be evaluated based on the product's actual use.
+
+---
+
+## 7. Project Principles
 
 - **Simplicity over completeness**
 - **Explicit decisions over generic solutions**
@@ -57,7 +92,7 @@ The project is **open source** and designed so that anyone can run and adapt it 
 
 ---
 
-## 6. Learning Objectives
+## 8. Learning Objectives
 
 - Modeling simple financial data
 - System design applied to a real case
