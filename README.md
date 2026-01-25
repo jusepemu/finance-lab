@@ -52,38 +52,24 @@ The project is **open source** and designed so that anyone can run and adapt it 
 
 ---
 
-## 5. MVP (v0.1)
+## 5. Simple, Lovable, Complete (SLC)
 
-The goal of the MVP is to **validate the product's complete flow**, from data entry to generating minimum user value. In this first version, the system must allow:
+The goal of the SLC is creating a simple, lovable, and complete system to track and analyze personal financial information. In this iteration, the system must allow:
 
 - Defining a base monthly income
 - Manually recording expenses (date, category, amount, optional note)
 - Viewing a simple summary:
-  - Total spent in the month
-  - Basic expense vs. income comparison
+  - Total Spent in the month
+  - Total Income in the month
+  - Total Spents in the month
+  - The most spent category and the most item spent
 - Obtaining a simple AI-generated insight, for example:
   - A summary of the month's spending behavior
   - Detection of an obvious recurring expense
 
-The MVP does not aim for optimization or depth, but to **close the complete loop**: data → system → interpretation.
+The SLC does not aim for optimization or depth, but to **close the complete loop**: data → system → interpretation.
 
----
-
-## 6. Post-MVP
-
-Once the MVP is validated and its real limitations are understood, the project could evolve towards:
-
-- Savings goals with visual progress
-- Month-to-month comparisons
-- Automatic expense categorization
-- More elaborate insights (trends, soft alerts)
-- Data export
-
-These ideas are not commitments, only **possible directions** that will be evaluated based on the product's actual use.
-
----
-
-## 7. Project Principles
+## 6. Project Principles
 
 - **Simplicity over completeness**
 - **Explicit decisions over generic solutions**
@@ -92,7 +78,7 @@ These ideas are not commitments, only **possible directions** that will be evalu
 
 ---
 
-## 8. Learning Objectives
+## 7. Learning Objectives
 
 - Modeling simple financial data
 - System design applied to a real case
