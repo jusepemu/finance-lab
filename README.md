@@ -69,6 +69,10 @@ The goal of the SLC is creating a simple, lovable, and complete system to track 
 
 The SLC does not aim for optimization or depth, but to **close the complete loop**: data → system → interpretation.
 
+| Simple | Lovable | Complete |
+| :--- | :--- | :--- |
+| The system focuses on a single main action: logging income and expenses one-by-one.<br>• No prior setup or unnecessary fields.<br>• Adding an expense or income is immediate and doesn't interrupt the user's flow.<br>• No hidden steps, mandatory configurations, or visible technical decisions. | After each entry, the system provides immediate clarity.<br>• The user can see how their money is distributed, quickly identify the largest monthly expense, and recognize their main source of income.<br>• The app doesn't judge or overwhelm with metrics; it translates data into simple signals that aid reflection.<br>• The value lies in the feeling of understanding, not in the amount of information displayed. | The experience is a closed loop from start to finish.<br>• The user can:<br>  1. Register their information.<br>  2. See its financial impact.<br>  3. Understand their current situation.<br>  4. Make a conscious decision.<br>• This happens without extra steps, payments, or reliance on external integrations.<br>• When the interaction ends, the user knows where their money is going and what most affects their monthly balance. |
+
 ## 6. Project Principles
 
 - **Simplicity over completeness**
