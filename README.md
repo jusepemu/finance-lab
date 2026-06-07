@@ -21,20 +21,46 @@ Tranqui helps you answer the questions that matter:
 
 ## Tech Stack
 
-<!-- Fill in as you build -->
+- **Framework:** [SvelteKit](https://kit.svelte.dev/) (Svelte 5)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) v4
+- **Build Tool:** [Vite](https://vitejs.dev/) v6
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Local Database:** [Dexie](https://dexie.org/) (IndexedDB wrapper for local-first storage)
+- **PWA:** Progressive Web App support via `@vite-pwa/sveltekit` for offline capabilities
 
 ## Getting Started
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v24.14.0 or later)
+- [pnpm](https://pnpm.io/) (v11.5.2 or later — this project uses pnpm as its package manager)
+
+> 💡 **Tip:** If you use `nvm`, you can run `nvm use` to automatically switch to the correct Node.js version specified in `.nvmrc`.
+
+### Development
+
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/tranqui.git
+git clone git@github.com:jusepemu/finance-lab.git 
 cd tranqui
 
 # Install dependencies
-# TODO: add install command
+pnpm install
 
-# Run the app
-# TODO: add r
+# Start the development server
+pnpm run dev
+
+# The app will be available at http://localhost:5173
+```
+
+### Production Build
+
+```bash
+# Build for production
+pnpm run build
+
+# Preview the production build locally
+pnpm run preview
 ```
 
 ## Usage
