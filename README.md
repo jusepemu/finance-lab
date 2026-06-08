@@ -67,15 +67,11 @@ pnpm run preview
 
 <!-- Add screenshots or usage instructions once the app has a UI -->
 
-## Project Structure
+## Architecture
 
-```
-tranqui/
-├── src/
-├── tests/
-├── README.md
-└── package.json
-```
+- [Overview](docs/architecture/overview.md)
+- [Data Flow](docs/architecture/data-flow.md)
+- [Folder Structure](docs/architecture/folder-structure.md)
 
 ## Roadmap
 
